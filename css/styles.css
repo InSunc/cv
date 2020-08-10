@@ -168,7 +168,7 @@ a:hover {
 }
 .info .sticky-container {
   position: sticky;
-  padding-top: 15px;
+  padding-top: 5px;
   top: 0;
 }
 .info ul {
@@ -275,7 +275,8 @@ a:hover {
   padding: 0 20px;
 }
 .info .contacts ul li {
-  display: flex;
+  display: inline-block;
+  margin: 0;
 }
 .info .plang {
   margin-bottom: 40px;
@@ -371,4 +372,15 @@ iframe {
 .cert::before {
   content: '✱ ';
   color: red;
+}
+.far,
+.fa-envelope,
+.fas,
+.fa-globe-europe,
+.fab,
+.fa-github {
+  padding: 0 7px!important;
+}
+.fa-2x {
+  vertical-align: middle!important;
 }

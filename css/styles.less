@@ -210,7 +210,7 @@ a:hover {
 
 	.sticky-container {
 		position: sticky;
-		padding-top: 15px;
+		padding-top: 5px;
 		top: 0;
 	}
 
@@ -218,7 +218,7 @@ a:hover {
 		list-style: circle;
 	}
 	ul li {
-		margin-bottom: 10px;;
+		margin-bottom: 10px;
 	}
 
 	ul.clash-of-tech {
@@ -326,7 +326,8 @@ a:hover {
 		}
 
 		ul li {
-			display: flex;
+			display: inline-block;
+			margin: 0;
 		}
 
 	}
@@ -440,4 +441,14 @@ iframe {
 .cert::before {
 	content: '✱ ';
 	color: red;
+}
+
+.far, .fa-envelope,
+.fas, .fa-globe-europe,
+.fab, .fa-github {
+	padding: 0 7px!important;
+}
+
+.fa-2x {
+	vertical-align: middle!important;
 }
